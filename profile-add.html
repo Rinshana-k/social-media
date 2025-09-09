@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile-add</title>
+    <!-- bs link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- nav section -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container">
+
+            <a class="navbar-brand clr fw-bold ms-2" href="#">Timezap</a>
+            <form class="d-flex mx-auto" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn clr1 rounded" type="search">
+                    <i class="fa-solid fa-magnifying-glass clr1"></i></button>
+            </form>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link " aria-current="page" href="#">Home</a>
+                    <a class="nav-link " aria-current="page" href="#">About</a>
+                    <a class="nav-link" href="#">Notification <i class="fa-solid fa-bell"></i></a>
+                    <button class="btn  btn-2">logout</button>
+                    <div style="width: 50px;height: 50px; "> <img src="./images/pexels-marcelochagas-1854897.jpg"
+                            alt="unavailable" class="w-100 h-100 rounded-circle ms-4 object-fit-cover">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid main d-flex justify-content-center">
+        <div class="profile  p-3" style="width: 600px;">
+            <div class="text-center">
+                <h4 class="fw-bold mt-2">Edit profile</h4>
+                <img src="./images/OIP (1).jpeg" alt="" style="width: 100px; height: 100px;"
+                    class="rounded-circle object-fit-cover mt-3"><br>
+                <button class="btn btn-md border btn-1 mt-2">change photo </button>
+            </div>
+            <form action="">
+                <div class="mt-4">
+                    <label for="" class="fw-bold">Name</label>
+                    <input type="text" id="disabledTextInput" class="form-control mt-2"
+                        placeholder="Enter your name">
+                </div>
+
+                <div class="mb-3 mt-3">
+                    <label for="exampleFormControlTextarea1" class="form-label fw-bold">Bio</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="About"></textarea>
+                </div>
+
+
+                <div>
+                    <label for="inputgender" class="form-label mb-3 fw-bold">Gender</label>
+                    <select id="inputgender" class="form-select w-100 mb-3">
+                        <option selected>None</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>other</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="" class="fw-bold">Location</label>
+                    <input type="text" id="disabledTextInput" class="form-control mb-4 mt-3"
+                        placeholder="Enter your Location">
+                </div>
+
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-1 me-md-2" type="button">Save</button>
+                    <button class="btn btn-secondary" type="button">Cancel</button>
+                </div>
+
+            </form>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

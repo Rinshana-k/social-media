@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>post-list</title>
+
+    <!-- bs link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="main">
+    <div class="sticky-top">
+        <!-- nav section start -->
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+            <div class="container">
+
+                <a class="navbar-brand clr fw-bold ms-2" href="#">Timezap</a>
+                <form class="d-flex mx-auto" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn  btn-2 rounded" type="search">
+                        <i class="fa-solid fa-magnifying-glass "></i></button>
+                </form>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link " aria-current="page" href="#">Home</a>
+                        <a class="nav-link " aria-current="page" href="#">About</a>
+                        <a class="nav-link" href="#">Notification <i class="fa-solid fa-bell"></i></a>
+                        <button class="btn  btn-2">logout</button>
+                        <div style="width: 50px;height: 50px; "> <img src="./images/pexels-marcelochagas-1854897.jpg"
+                                alt="unavailable" class="w-100 h-100 rounded-circle ms-4 object-fit-cover">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- nav end -->
+
+    </div>
+
+    <div class="container main p-2 mt-2 ">
+
+        <div class="row  ">
+            <!-- left sidestart -->
+            <div class=" col-lg-3 col-md-12 col-12 mb-3">
+                <div class="card ">
+                    <div class=" card-head border  position-relative">
+
+                        <img src="./images/pexels-katie-mukhina-975382726-33435591.jpg" alt=""
+                            class="w-100 object-fit-cover" style="height: 80px;">
+                        <img src="./images/pexels-marcelochagas-1854897.jpg" alt="unavailable"
+                            class=" border border-dark position-absolute top-100 start-50 translate-middle rounded-circle object-fit-cover"
+                            style="width: 80px;height: 80px;">
+                    </div>
+                    <div class="card-body text-center mt-4">
+                        <h6 class="fw-bold">Erza Azrin</h6>
+                        <p class="text-muted mb-3">Professional Artist</p>
+                        <div class=" social d-flex justify-content-center ">
+                            <div class="border-end p-2"> <strong>20</strong>
+                                <p class="text-muted">posts</p>
+                            </div>
+                            <div class="border-end p-2"> <strong>1.4K</strong>
+                                <p class="text-muted">followers</p>
+                            </div>
+                            <div class="p-2"> <strong>500</strong>
+                                <p class="text-muted">following</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+                    <!-- home section start -->
+                    <div class="home lh-lg-2 ms-3">
+                        <p><i class="fa-solid fa-house-chimney"></i><a href="#"
+                                class="text-decoration-none text-dark fw-bold ms-2">Home</a></p>
+                        <p><i class="fa-solid fa-user"></i><a href="./profile-details.html"
+                                class="text-decoration-none text-dark fw-bold ms-2">Profile</a></p>
+
+                        <p><i class="fa-solid fa-bell"></i><a href="#"
+                                class="text-decoration-none text-dark fw-bold ms-2">Notification</a></p>
+                        <p><i class="fa-solid fa-comments"></i><a href="#"
+                                class="text-decoration-none text-dark fw-bold ms-2">chat</a></p>
+                        <p><i class="fa-solid fa-user-plus"></i><a href="#"
+                                class="text-decoration-none text-dark fw-bold ms-2">follow</a></p>
+                        <p><i class="fa-solid fa-gear"></i><a href="#"
+                                class="text-decoration-none text-dark fw-bold ms-2">Settings</a></p>
+
+
+                        <hr>
+                    </div>
+                    <p class="text-muted text-center me-3 mt-4 lh-lg">About Settings Support Dos Help Privacy& terms
+                    </p>
+
+                </div>
+
+                <!-- home section end -->
+            </div>
+
+            <!-- middle section start -->
+            <div class="col-lg-6 col-md-12 col-12 main ">
+                <div class="story-container p-3 bg-white border  rounded d-flex  justify-content-center ">
+                    <div class="story-card border rounded me-2 p-2">
+
+                        <!-- story section -->
+                        <div class="add-story w-100 h-75 border-secondary rounded ">
+
+                            <center class="text-secondary"> <i class="fa-solid fa-circle-plus mx-auto"></i> </center>
+                            <span>Post a Story</span>
+
+                            </center>
+                        </div>
+                    </div>
+
+                    <div class="story-card border  rounded me-2" style="width: 100px; height: 150px;">
+                        <img src="./images/pexels-katie-mukhina-975382726-33435591.jpg" alt="Story 1"
+                            class="w-100 h-75 object-fit-cover rounded">
+                        <p class="m-2  text-muted">Judy</p>
+                    </div>
+
+                    <div class="story-card border rounded me-3" style="width: 100px; height: 150px;">
+                        <img src="./images/pexels-vlada-karpovich-4873585.jpg" alt="Story 1"
+                            class="w-100 h-75 object-fit-cover rounded">
+                        <p class="m-2  text-muted">Belly</p>
+                    </div>
+
+
+                    <div class="story-card border rounded me-3" style="width: 100px; height: 150px;">
+                        <img src="./images/pexels-suzyhazelwood-3087878 (1).jpg" alt="Story 1"
+                            class="w-100 h-75 object-fit-cover rounded">
+                        <p class="m-2  text-muted">Jhon</p>
+                    </div>
+
+
+                    <div class="story-card border rounded me-3" style="width: 100px; height: 150px;">
+                        <img src="./images/pexels-cottonbro-4661297.jpg" alt="Story 1"
+                            class="w-100 h-75 object-fit-cover rounded">
+                        <p class="m-2 text-muted">Tom</p>
+                    </div>
+
+
+                </div>
+                <!-- story section end -->
+
+                <div class="post-box border rounded bg-white p-2 mt-3 ">
+                    <div class="d-flex">
+                        <div style="width:50px;height: 50px;" class="me-2">
+                            <img src="./images/pexels-marcelochagas-1854897.jpg" alt="unavailable"
+                                class="w-100 h-100 rounded-circle">
+                        </div>
+                        <input type="text" class="form-control mb-2 " placeholder="Share your thoughts...">
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex mt-4">
+
+                            <p class="me-2 p-1 border border-dark rounded "><i
+                                    class="fa-solid fa-image text-success"></i><a href="#"
+                                    class="text-decoration-none text-dark">Photo</a></p>
+                            <p class="me-2 border border-dark p-1 rounded"><i
+                                    class="fa-solid fa-video text-danger"></i><a href="#"
+                                    class="text-decoration-none text-dark">Video</a></p>
+                            <p class="me-2 border border-dark p-1 rounded"><i class="fa-solid fa-music"></i><a href="#"
+                                    class="text-decoration-none text-dark">Song</a></p>
+                            <p class="me-2 border border-dark p-1 rounded"><i class="fa-solid fa-camera"></i><a href="#"
+                                    class="text-decoration-none text-dark">Camera</a></p>
+                        </div>
+                        <button class="btn btn-md btn-color ">Post</button>
+                    </div>
+                </div>
+
+
+
+                <!-- post section start -->
+                <div class="post mt-3">
+
+                    <!-- post1 -->
+                    <div class="card p-2">
+                        <div class="card-body">
+                            <div class="d-flex ">
+                                <div style="width: 50px;height: 50px; "> <img
+                                        src="./images/pexels-stefanstefancik-91227.jpg" alt="unavailable"
+                                        class="w-100 h-100 rounded-circle object-fit-cover"></div>
+                                <p class="ms-2 fw-bold">capture_crew_shefin</p>
+                            </div>
+                            <small class="text-body-secondary mt-2">3 mins ago</small>
+                        </div>
+                        <img src="./images/pexels-marcelochagas-1854897.jpg"
+                            class="card-img-bottom w-100 object-fit-cover" alt="user-post" style="height: 200px;">
+
+                        <p class="mt-2">life is beautiful with camera</p>
+                        <div class="post-actions">
+                            <span class="me-2"><i class="fa-regular fa-thumbs-up text-primary"></i>like</span>
+                            <span class="me-2"><i class="fa-regular fa-comments"></i>comment</span>
+                            <span class="me-2"><i class="fa-solid fa-share"></i>Share</span>
+                        </div>
+                    </div>
+
+                    <!-- post-2 -->
+
+                    <div class="card p-2 mt-2">
+                        <div class="card-body">
+                            <div class="d-flex ">
+                                <div style="width: 50px;height: 50px; "> <img src="./images/OIP (1).jpeg"
+                                        alt="unavailable" class="w-100 h-100 rounded-circle object-fit-cover"></div>
+                                <p class="ms-2 fw-bold">Alex</p>
+                            </div>
+                            <small class="text-body-secondary mt-2">just now</small>
+                        </div>
+                        <img src="./images/pexels-bintimalu-1485657.jpg" class="card-img-bottom w-100 object-fit-cover"
+                            alt="user-post" style="height: 200px;">
+
+                        <p class="mt-2">the life is fully positive throught</p>
+                        <div class="post-actions">
+                            <span class="me-2"><i class="fa-regular fa-thumbs-up text-primary"></i>like</span>
+                            <span class="me-2"><i class="fa-regular fa-comments"></i>comment</span>
+                            <span class="me-2"><i class="fa-solid fa-share"></i>Share</span>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- post section end -->
+                <!-- middle section end -->
+
+
+            </div>
+
+            <!-- right section start -->
+            <div class="col-lg-3 col-md-12  col-12 main ">
+
+                <!-- follow card -->
+                <div class="card mt-1">
+                    <div class="card-body">
+                        <h5 class="card-title mb-3">Who to follow</h5>
+
+                        <div class="d-flex justify-content-between mb-2">
+                            <div class="d-flex">
+                                <div style="width:50px;height: 50px;" class="me-4">
+                                    <img src="./images/pexels-olly-733872.jpg" alt="unavailable"
+                                        class="w-100 h-100 rounded-circle object-fit-cover">
+                                </div>
+                                <p>Judy<br>Artist</p>
+                            </div>
+                            <p><i class="fa-solid fa-user-plus"></i><a href="#"
+                                    class="text-decoration-none ms-2">follow</a></p>
+                        </div>
+
+
+                        <div class="d-flex justify-content-between mb-2">
+                            <div class="d-flex">
+                                <div style="width:50px;height: 50px;" class="me-4">
+                                    <img src="./images/pexels-garonpiceli-852793.jpg" alt="unavailable"
+                                        class="w-100 h-100 rounded-circle object-fit-cover">
+                                </div>
+                                <p>Belly<br>Reel creator</p>
+                            </div>
+                            <p><i class="fa-solid fa-user-plus"></i><a href="#"
+                                    class="text-decoration-none ms-2">follow</a></p>
+                        </div>
+
+
+                        <div class="d-flex justify-content-between mb-2">
+                            <div class="d-flex">
+                                <div style="width:50px;height: 50px;" class="me-4">
+                                    <img src="./images/pexels-olly-839011.jpg" alt="unavailable"
+                                        class="w-100 h-100 rounded-circle object-fit-cover">
+                                </div>
+                                <p>Jhon<br>IT professor</p>
+                            </div>
+                            <p><i class="fa-solid fa-user-plus"></i><a href="#"
+                                    class="text-decoration-none ms-2">follow</a></p>
+                        </div>
+
+
+                        <div class="d-flex justify-content-between mb-2">
+                            <div class="d-flex">
+                                <div style="width:50px;height: 50px;" class="me-4">
+                                    <img src="./images/pexels-freestockpro-1172207.jpg" alt="unavailable"
+                                        class="w-100 h-100 rounded-circle object-fit-cover">
+                                </div>
+                                <p>Tom<br>Video editor</p>
+                            </div>
+                            <p><i class="fa-solid fa-user-plus"></i><a href="#"
+                                    class="text-decoration-none ms-2">follow</a></p>
+                        </div>
+
+                        <a href="#"
+                            class="text-decoration-none d-flex justify-content-center  bg-primary-subtle p-2 mt-4">View
+                            more</a>
+
+                    </div>
+                </div>
+                <!-- follow card end -->
+
+
+            </div>
+            <!-- right section end -->
+
+
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

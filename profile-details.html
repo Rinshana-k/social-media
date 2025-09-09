@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile-details</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <!-- bs cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body class="main ">
+
+
+    <!-- nav section -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container">
+
+            <a class="navbar-brand clr fw-bold ms-2" href="#">Timezap</a>
+            <form class="d-flex mx-auto" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn clr1 rounded" type="search">
+                    <i class="fa-solid fa-magnifying-glass clr1"></i></button>
+            </form>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link " aria-current="page" href="#">Home</a>
+                    <a class="nav-link " aria-current="page" href="#">About</a>
+                    <a class="nav-link" href="#">Notification <i class="fa-solid fa-bell"></i></a>
+                    <button class="btn  btn-2">logout</button>
+                    <div style="width: 50px;height: 50px; "> <img src="./images/pexels-marcelochagas-1854897.jpg"
+                            alt="unavailable" class="w-100 h-100 rounded-circle ms-4 object-fit-cover">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- row 1 start -->
+
+    <div class="container mt-3 rounded bg-white w-75">
+
+        <div class="profile-header  p-3">
+            <!-- Cover Photo -->
+            <img src="./images/pexels-katie-mukhina-975382726-33435591.jpg" class="cover-photo object-fit-cover rounded"
+                alt="Cover" style="width: 100%;height: 200px;">
+
+            <!-- Profile Image -->
+            <img src="./images/pexels-marcelochagas-1854897.jpg" class="profile-pic rounded-circle  " alt="Profile"
+                style="width: 150px;height: 150px;">
+
+            <!-- Profile Info -->
+            <h3 style="margin-left: 280px;" class="fw-bold mt-3">Erza Azrin</h3>
+            <div class="d-flex mb-3">
+                <p style="margin-left: 280px;" class="border-end border-dark p-2">30 posts</p>
+                <p class="border-end border-dark p-2">1.5k followers</p>
+                <p class=" p-2">350 following</p>
+            </div>
+
+            <!-- Buttons -->
+            <div class="btn-section">
+                <button class="btn btn-color me-2">+ Add to story</button>
+                <a class="btn btn-secondary" href="./profile-add.html" role="button"><i
+                        class="fa-solid fa-pencil"></i>Edit Profile</a>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- row 2 start -->
+    <div class="row main w-75 mt-2 rounded mx-auto  d-flex justify-content-between">
+
+        <!-- col1 start -->
+
+        <div class="col-3 rounded bg-white h-50 p-2">
+            <p class="border rounded bg-white p-2 mx-auto"><i class="fa-solid fa-lock"></i>you locked your profile</p>
+
+            <div class="home lh-lg-2 ms-3">
+                <p><i class="fa-solid fa-house-chimney"></i><a href="#"
+                        class="text-decoration-none text-dark fw-bold ms-2">Home</a></p>
+                <p><i class="fa-solid fa-user"></i><a href="./profile-details.html"
+                        class="text-decoration-none text-dark fw-bold ms-2">Profile</a></p>
+
+                <p><i class="fa-solid fa-bell"></i><a href="#"
+                        class="text-decoration-none text-dark fw-bold ms-2">Notification</a></p>
+                <p><i class="fa-solid fa-comments"></i><a href="#"
+                        class="text-decoration-none text-dark fw-bold ms-2">chat</a></p>
+                <p><i class="fa-solid fa-user-plus"></i><a href="#"
+                        class="text-decoration-none text-dark fw-bold ms-2">follow</a></p>
+                <p><i class="fa-solid fa-gear"></i><a href="#"
+                        class="text-decoration-none text-dark fw-bold ms-2">Settings</a></p>
+
+
+                <hr>
+                
+            </div>
+
+
+            <div class="home lh-lg-2 bg-white  p-2 rounded ">
+                <h5 class="mb-3 fw-bold clr mt-2">Create</h5>
+                <p> <img src="./images/10523295_instagram_reel_icon (2).png" alt="" style="width: 20px ;"><a href="#"
+                        class="text-decoration-none text-dark fw-bold ms-2">Reel</a></p>
+                <p><img src="./images/grid.png" alt="" style="width: 20px ;"><a href="#"
+                        class="text-decoration-none text-dark fw-bold ms-2">post</a>
+                </p>
+
+                <p><img src="./images/circle.png" alt="" style="width: 20px ;" class="text-dark"><a href="#"
+                        class="text-decoration-none text-dark fw-bold ms-2">story hightlights</a></p>
+                <p><i class="fa-solid fa-video"></i><a href="#"
+                        class="text-decoration-none text-dark fw-bold ms-2">live</a></p>
+                <hr>
+
+            </div>
+
+        </div>
+
+        <!-- col1 end -->
+
+        <!-- col2 start -->
+        <div class="col-lg-9 col-md-9 col-12">
+
+            <!-- thought section -->
+            <div class=" row post-box border rounded bg-white p-2 mt-1 ms-2 ">
+                <div class="d-flex">
+                    <div style="width:50px;height: 50px;" class="me-2">
+                        <img src="./images/pexels-marcelochagas-1854897.jpg" alt="unavailable"
+                            class="w-100 h-100 rounded-circle">
+                    </div>
+                    <input type="text" class="form-control mb-2 " placeholder="Share your thoughts...">
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex mt-4">
+
+                        <p class="me-2 p-1 border border-dark rounded "><i class="fa-solid fa-image text-success"></i><a
+                                href="#" class="text-decoration-none text-dark">Photo</a></p>
+                        <p class="me-2 border border-dark p-1 rounded"><i class="fa-solid fa-video text-danger"></i><a
+                                href="#" class="text-decoration-none text-dark">Video</a></p>
+                        <p class="me-2 border border-dark p-1 rounded"><i class="fa-solid fa-music"></i><a href="#"
+                                class="text-decoration-none text-dark">Song</a></p>
+                        <p class="me-2 border border-dark p-1 rounded"><i class="fa-solid fa-camera"></i><a href="#"
+                                class="text-decoration-none text-dark">Camera</a></p>
+                    </div>
+                    <button class="btn btn-md btn-color ">Post</button>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="row bg-white rounded mt-3 ms-2 ">
+
+
+                <div class="d-flex mt-2">
+                    <p class="me-5 fw-bold"><a href="#">Post</a></p>
+                    <p class="fw-bold"><a href="#" class="text-decoration-none text-dark">Reel</a></p>
+                </div>
+
+
+                <div class="col-lg-6 col-md-12 col-12 mt-2">
+                    <div class="card position-relative rounded" style="height: 300px;">
+                        <img src="./images/pexels-katie-mukhina-975382726-33435591.jpg" alt="unavailable"
+                            class="h-100 rounded">
+                        <p class="position-absolute bottom-0 start-0 text-white  "><i class="fa-solid fa-eye"></i>2.1k
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-6 mt-2">
+                    <div class="card rounded position-relative" style="height: 300px;">
+                        <img src="./images/pexels-katie-mukhina-975382726-33435591.jpg" alt="unavailable"
+                            class="h-100 rounded">
+                        <p class="position-absolute bottom-0 start-0 text-white  "><i class="fa-solid fa-eye"></i>2.1k
+                        </p>
+
+                    </div>
+                </div>
+
+
+                <div class="col-6 mt-2">
+                    <div class="card rounded position-relative" style="height: 300px;">
+                        <img src="./images/pexels-katie-mukhina-975382726-33435591.jpg" alt="unavailable"
+                            class="h-100 rounded">
+                        <p class="position-absolute bottom-0 start-0 text-white  "><i class="fa-solid fa-eye"></i>2.1k
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="col-6  mt-2">
+                    <div class="card position-relative rounded " style="height: 300px;">
+                        <img src="./images/pexels-katie-mukhina-975382726-33435591.jpg" alt="unavailable"
+                            class="h-100 rounded">
+                        <p class="position-absolute bottom-0 start-0 text-white  "><i class="fa-solid fa-eye"></i>2.1k
+                        </p>
+                    </div>
+                </div>
+
+
+               <a href="" class="text-decoration-none text-center mt-3">view more....</a>
+
+
+
+            </div>
+        </div>
+        <!-- col2 end -->
+    </div>
+
+
+
+
+</body>
+
+</html>
