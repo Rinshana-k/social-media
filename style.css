@@ -1,105 +1,116 @@
-body{
+body {
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-:root{
-    /* --card-bg:#6E0870; */
-
-    --card-bg:#bb2906;
-    --col-bg:#FFE4E3;
+:root {
+    --card-bg: #bb2906;
+    --col-bg: #FFE4E3;
 }
 
-.head{
+.head {
     color: var(--card-bg);
 }
 
-.btn-3{
+.btn-3 {
     background-color: var(--card-bg);
-    
+
 }
-.btn-3:hover{
-background-color: var(--card-bg);
+
+.btn-3:hover {
+    background-color: var(--card-bg);
     color: white;
 }
-.carousel-item{
+
+.carousel-item {
     height: 300px;
 }
 
 
-.btn-1{
+.btn-1 {
     background-color: var(--card-bg);
     color: white;
 }
-.btn-1:hover{
-  background-color: var(--card-bg);
-  color: white;
-  box-shadow:5px 4px 25px var(--card-bg) ;
+
+.btn-1:hover {
+    background-color: var(--card-bg);
+    color: white;
+    box-shadow: 5px 4px 25px var(--card-bg);
 
 }
 
-.btn-2{
-    border-color:var(--card-bg);
+.btn-2 {
+    border-color: var(--card-bg);
     color: var(--card-bg);
 }
-.btn-2:hover{
-    color:white;
+
+.btn-2:hover {
+    color: white;
     background-color: var(--card-bg);
 }
-.main{
+
+.main {
     background-color: var(--col-bg);
 }
-.add-story{
-  
-   
+
+.add-story {
+
+
     padding: 10px;
-    border: 1px dashed ;
+    border: 1px dashed;
 }
-.story-card{
-          box-shadow: 0 2px 6px rgba(0,0,0,0.1);
- transition: transform .5s ease-in-out;
+
+.story-card {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform .5s ease-in-out;
 }
-.story-card:hover{
+
+.story-card:hover {
     transform: scale(1.2);
 }
 
-.bg-nav{
-    background-color: var(--card-bg);
-}
-.link{
-    color: var(--card-bg);
-}
-.icon{
-    color: var(--card-bg);
-}
-.btn-color{
+.bg-nav {
     background-color: var(--card-bg);
 }
 
-.btn-color:hover{
- color: white;
- background-color: var(--card-bg);
+.link {
+    color: var(--card-bg);
 }
-.profile-header{
+
+.icon {
+    color: var(--card-bg);
+}
+
+.btn-color {
+    background-color: var(--card-bg);
+}
+
+.btn-color:hover {
+    color: white;
+    background-color: var(--card-bg);
+}
+
+.profile-header {
     position: relative;
 }
 
-.profile-pic{
-    position:absolute;
+.profile-pic {
+    position: absolute;
     top: 100px;
     left: 15px;
-    transform: translate(50px,50px);
+    transform: translate(50px, 50px);
 }
-.clr{
+
+.clr {
     color: var(--card-bg);
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: var(--card-bg);
 }
 
-.clr1{
-    color:var(--card-bg);
+.clr1 {
+    color: var(--card-bg);
     border-color: var(--card-bg);
-    
+
 }
